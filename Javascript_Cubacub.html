@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome to my Page</title>
+<!--This Javascript code will determine the font size-->
+<script>
+    function sizefunction() {
+        document.getElementById("demo").style.fontSize="50px"
+    }
+    function sizefunction1(){
+        document.getElementById("demo").style.fontSize="45px"
+    }
+    function sizefunction2(){
+        document.getElementById("demo").style.fontSize="35px"
+    }
+    function sizefunction3(){
+        document.getElementById("demo").style.fontSize="25px"
+    }
+</script>
+</head>
+<body id="background">
+    <p id ='demo'>Silliman University</p>
+    <!--font size buttons-->
+    <h4>Changing fonts size</h4>
+    <button type="button" onclick="sizefunction()">Font Size 50</button>
+    <button type="button" onclick="sizefunction1()">Font Size 45</button>
+    <button type="button" onclick="sizefunction2()">Font Size 35</button>
+    <button type="button" onclick="sizefunction3()">Font Size 25</button>
+    <br>
+    <!--font color buttons... The JavaScript is inside the button onclick value-->
+    <h4>Changing font colors</h4>
+    <button type="button" onclick='document.getElementById("demo").style.color="yellow"'>Yellow</button>
+    <button type="button" onclick='document.getElementById("demo").style.color="white"'>White</button>
+    <button type="button" onclick='document.getElementById("demo").style.color="orange"'>Orange</button>
+    <button type="button" onclick='document.getElementById("demo").style.color="lightgreen"'>Light Green</button>
+    <br>
+    <!--background color buttons-->
+    <h4>Changing Background Colors</h4>
+    <button type="button" onclick="colorfunction()">Black</button>
+    <button type="button" onclick="colorfunction1()">Maroon</button>
+    <button type="button" onclick="colorfunction2()">Blue</button>
+    <button type="button" onclick="colorfunction3()">Violet</button>
+    <!--Javascript code for changing background color-->
+    <script>
+    function colorfunction() {
+        document.getElementById("background").style.background="black"
+    }
+    function colorfunction1(){
+        document.getElementById("background").style.background="maroon"
+    }
+    function colorfunction2(){
+        document.getElementById("background").style.background="#191970"
+    }
+    function colorfunction3(){
+        document.getElementById("background").style.background="#483248"
+    }
+</script>
+</body>
+</html>
