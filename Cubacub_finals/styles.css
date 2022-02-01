@@ -1,0 +1,128 @@
+body{
+    background-image: url(diary.png); 
+    font-family: Comic Sans Ms; 
+    background-repeat:no-repeat;
+    background-size: 1530px; 
+    font-size: 25px;
+}
+#navbar{
+    height: 80px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+#header{
+    background-image: url(notepad.png);
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    height: 80%;
+    text-align: center;
+}
+#header h1{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+#indoor{
+    display: block;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+#indoor a{
+    color:black;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.about{
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  color: #222222;
+  display: inline-block;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 17px 25px;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  width: auto;
+}
+.about a{
+    text-decoration: none;
+    color: #222222;
+}
+.about:hover{
+    background-color: antiquewhite;
+}
+#body{
+    background-image: url(aesthetic.png);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#aboutme{
+    background-image: url(about.png);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#aboutme ol{
+    list-style: none;
+}
+#educ{
+    background-image: url(education.png);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#mom{
+    background-image: url(education.png);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    list-style: none;
+}
+#mom img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+}
+#dad{
+    background-image: url(aesthetic.png);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    list-style: none;
+}
+#dad img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    text-align: center;
+}
+#hed{
+    text-align:center;
+}

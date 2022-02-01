@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Contact Me</title>
+    <script> 
+        function reset(form) {                     
+            form.inputbox.value="";                                 
+        }
+        function submitform(form) {                                      
+            alert("Message Sent");     
+            document.getElementById("contact").submit();       
+        } 
+    </script>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div id = "navbar">
+        <div id = "indoor">
+          <a href="index.html">Home</a>
+          <a href="about me.html">About Me</a>
+          <a href="family.html">My Family</a>
+          <a href="education.html">Education</a>
+          <a href="contact us.html">Contact Me</a>
+        </div>
+      </div>
+        <h1 style= "font-family:Comic Sans Ms;text-align: center;">My Socials</h1>
+        <ul style= "text-align: center; font-size: 30px;" type = "none">
+            <li><a href= "https://www.youtube.com/channel/UC2LFwdtWVC33g4QHhMBR6UQ">Youtube</a></li>
+            <li><a href= "https://www.facebook.com/amberclarisse.cubacub">Facebook</a></li>
+            <li><a href= "https://www.instagram.com/clarisseamber/">Instagram</a></li>
+        </ul>
+        <h2 id="hed">Contact Me</h2>   
+        <form id="contact">
+            <p>Last Name <input id="text" type="text" name="inputbox" value=""></p>
+            <p>First Name <input id="text" type="text" name="inputbox" value=""></p>
+            <p>E-mail  <input type="email" id="text" name="inputbox" value=""></p>
+            <p>Contact Number  <input id="text" type="text" name="inputbox" value=""></p>
+            <p><input type="button" name="button" value="submit" onClick="submitform(this.form)"> <input type="button" value="reset" onClick='reset(this.form)'>
+        </form>
+</body>
+</html>
