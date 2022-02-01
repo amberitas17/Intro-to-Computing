@@ -1,0 +1,26 @@
+body{
+    background-color: #ffff97;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+}
+table{
+    background-color: #ff6d6d;
+}
+.paragraph{
+    color: red; 
+    font-family: monospace;
+    font-size: 50px;
+}
+.info{
+    background-color: tomato;
+    color:whitesmoke;
+}
+.content{
+    background-color: wheat;
+}
+ul{
+    text-align: left;
+}
